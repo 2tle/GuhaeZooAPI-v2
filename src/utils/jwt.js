@@ -11,7 +11,7 @@ const sign = (user) => {
     return jwt.sign(payload, process.env.JWT_SECRET, {
         algorithm: 'HS256',
         expiresIn: '2h',
-        issuer: 'Survirun'
+        issuer: 'GuhaeZoo'
     })
 }
 
