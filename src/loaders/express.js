@@ -8,7 +8,7 @@ import bodyParser from 'body-parser'
 
 export default async (app) => {
     app.set('service_port', process.env.PORT || 3000)
-    if (process.env.NODE_ENV == 'production') {
+    if (process.env.NODE_ENV === 'production') {
         app.use(helmet())
     }
     const opt = {
