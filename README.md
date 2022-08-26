@@ -1,7 +1,7 @@
 # GuhaeZoo API
 
 ## ☝ Description
-This is a server that supports the REST API for the [GuhaeZoo Application](https://github.com/2tle).
+This is a server that supports the REST API for the [GuhaeZoo Application](https://github.com/2tle/GuhaeZoo).
 
 ## ⚡ Services
 1. Auth / User
